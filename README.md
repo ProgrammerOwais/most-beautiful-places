@@ -1,6 +1,6 @@
 # 5 Most beautiful places in the world
 
-Live site url:
+Live site url: https://programmerowais.github.io/most-beautiful-places/
 
 ## About the Project:
 
