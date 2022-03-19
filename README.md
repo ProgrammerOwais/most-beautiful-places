@@ -21,10 +21,10 @@ are very beautiful & are in modern trend these include
 
 ## Technologies :
 
-=> HTML
-=> CSS3
-=> JavaScript
-=> Gsap.js
+=> HTML<br>
+=> CSS3<br>
+=> JavaScript<br>
+=> Gsap.js<br>
 
 ## Basic Purpose:
 
