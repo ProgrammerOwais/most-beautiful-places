@@ -1,0 +1,14 @@
+{
+  "name": "gsap_practice",
+  "version": "1.0.0",
+  "description": "The basic purpose of making this project is to show some of GSAP features to my visitors.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhammad_Owais",
+  "license": "ISC",
+  "dependencies": {
+    "gsap": "^3.9.1"
+  }
+}

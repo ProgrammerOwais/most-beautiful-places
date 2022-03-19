@@ -1,0 +1,645 @@
+::after,
+::before,
+*,
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+/* body {
+  overflow-x: hidden;
+} */
+html::-webkit-scrollbar {
+  background-color: black;
+  width: 1.2vw;
+}
+html::-webkit-scrollbar-thumb {
+  background-color: hsl(180, 25%, 45%);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.283);
+}
+html::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(180, 25%, 55%);
+}
+html::-webkit-scrollbar-track {
+  background-color: darkslategray;
+  border-radius: 30px;
+}
+
+.hero-section {
+  color: darkslategray;
+  width: 100vw;
+  height: 100vh;
+  background: url("./Greenland/greenland1.jpg") center no-repeat fixed;
+  background-size: cover;
+}
+.main-heading {
+  opacity: 0;
+  /* border: 2px solid red; */
+  font-family: Arial, Helvetica, sans-serif;
+  width: 800px;
+  text-align: center;
+  font-size: 3.5rem;
+  position: absolute;
+  left: 50%;
+  top: 14%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  min-height: 20vh;
+}
+.main-heading2 {
+  opacity: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 800px;
+  text-align: center;
+  font-size: 3.5rem;
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  min-height: 20vh;
+}
+.main-heading-chars,
+.santorini {
+  opacity: 0;
+  display: inline-block;
+}
+.arrow-div {
+  font-size: 6rem;
+  font-weight: bold;
+  /* border: 2px solid firebrick; */
+  text-align: center;
+  position: absolute;
+  top: 80%;
+  left: 48%;
+  transform: translateX(-48%);
+  transform: rotate(90deg);
+  animation: arrow 700ms linear infinite alternate;
+}
+@keyframes arrow {
+  from {
+    top: 77%;
+  }
+  to {
+    top: 80%;
+  }
+}
+
+.hero-img {
+  /* border: 1px solid red; */
+  position: absolute;
+  /* left: 0; */
+  width: 100vw;
+  min-width: 350px;
+  height: 100vh;
+}
+.place1-section {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+.place2-section {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  border: 2px solid black;
+}
+.place3-section {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+.place4-section {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+.place5-section {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: blue;
+}
+.place6-section {
+  position: relative;
+  width: 100vw;
+  height: 300vh;
+}
+.place7-section {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+.section1,
+.section4 {
+  width: 300vw;
+  display: flex;
+}
+.section2,
+.section5 {
+  position: absolute;
+  left: -200vw;
+  width: 300vw;
+  display: flex;
+}
+.section3,
+.section6 {
+  display: flex;
+  flex-direction: column;
+}
+.section3 {
+  margin-bottom: 2rem;
+}
+.section7 {
+}
+
+.box-a,
+.box-b,
+.box-c,
+.box-d,
+.box-f,
+.box-g,
+.box-h {
+  position: relative;
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+}
+.box1 {
+  background-color: yellow;
+  box-shadow: inset 0px 0px 2px black;
+}
+.img1-text {
+  width: 450px;
+  position: absolute;
+  top: 50px;
+  left: 30px;
+  color: darkslategrey;
+}
+.img2-text {
+  width: 400px;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  color: darkslategray;
+}
+.img3-text {
+  width: 400px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  color: sandybrown;
+}
+
+.img3-text .santorini-heading {
+  font-size: 2rem;
+}
+.santorini-heading {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.santorini-para {
+  font-size: 1.2rem;
+  line-height: 1.3;
+}
+.img4-text {
+  width: 450px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 50px;
+  color: olivedrab;
+  color: olivedrab;
+  color: yellowgreen;
+}
+.scot-heading {
+  font-size: 5rem;
+}
+.img5-text {
+  width: 400px;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  color: saddlebrown;
+}
+.scot-heading2 {
+  font-size: 2rem;
+  color: sienna;
+}
+.scot-para {
+  font-size: 1.5rem;
+}
+.scot-para3 {
+  text-align: center;
+  font-size: 1.7rem;
+}
+.img6-text {
+  width: 400px;
+  position: absolute;
+  left: 50%;
+  top: 30px;
+  transform: translateX(-50%);
+  color: white;
+}
+.place3-container {
+  /* border: 1px solid black; */
+  width: 99%;
+  position: absolute;
+  top: 20%;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+.row {
+  /* border: 3px solid red; */
+  width: 30%;
+  height: 410px;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.198);
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+/* .row1 {
+  color: yellow;
+}
+.row2 {
+  color: white;
+}
+.row3 {
+  color: yellow;
+} */
+.place3-heading {
+  font-size: 2rem;
+  text-align: center;
+  color: darkslategray;
+}
+.place3-img {
+  width: 100%;
+  border-radius: 50%;
+}
+.place3-para {
+  font-size: 1.2rem;
+  text-align: center;
+  color: white;
+}
+.img7-text {
+  width: 400px;
+  position: absolute;
+  left: 30px;
+  top: 20px;
+  color: yellow;
+}
+.paye-heading {
+  font-size: 4rem;
+}
+.paye-para {
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+.img8-text {
+  width: 600px;
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  transform: translateX(-50%);
+  color: rgba(255, 255, 255, 0.808);
+}
+.paye-heading2 {
+  font-size: 3rem;
+  text-align: center;
+}
+.img9-text {
+  width: 400px;
+  position: absolute;
+  right: 2%;
+  bottom: 22%;
+  color: black;
+}
+.paye-para2 {
+  font-size: 1.5rem;
+}
+.img10-text {
+  width: 400px;
+  position: absolute;
+  left: 5%;
+  top: 8%;
+  color: darkslategray;
+}
+.niagara-heading {
+  font-size: 2rem;
+}
+.niagara-para {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+.img11-text {
+  width: 400px;
+  position: absolute;
+  right: 3%;
+  top: 5%;
+  color: olive;
+}
+.niagara-para2 {
+  font-size: 1.5rem;
+}
+.img12-text {
+  width: 400px;
+  position: absolute;
+  left: 3%;
+  top: 5%;
+  color: rgba(255, 255, 255, 0.89);
+}
+.niagara-para3 {
+  font-size: 1.5rem;
+}
+.img13-text {
+  /* border: 1px solid red; */
+  width: 600px;
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transform: translateX(-50%);
+  color: green;
+  text-align: center;
+}
+.greenland-heading {
+  font-size: 5rem;
+}
+.greenland-para {
+  font-size: 1.5rem;
+}
+.img14-text {
+  /* border: 1px solid red; */
+  width: 600px;
+  position: absolute;
+  left: 50%;
+  bottom: 5%;
+  transform: translateX(-50%);
+  color: white;
+  text-align: center;
+}
+.greenland-heading2 {
+  color: yellow;
+  font-size: 4rem;
+}
+.greenland-para2 {
+  font-size: 1.3rem;
+  text-shadow: 0px 0px 1px blue;
+}
+.img15-text {
+  width: 600px;
+  position: absolute;
+  left: 1%;
+  top: 35%;
+  color: black;
+  font-weight: 600;
+  text-align: center;
+  z-index: 10;
+}
+.greenland-para3 {
+  font-size: 2rem;
+  text-shadow: 0px 0px 3px white;
+  text-transform: capitalize;
+}
+
+.box2 {
+  background-color: red;
+}
+.box3 {
+  background-color: pink;
+}
+.box4 {
+  background-color: firebrick;
+}
+.box5 {
+  background-color: aqua;
+}
+.box6 {
+  background-color: black;
+}
+.box7 {
+  background-color: orange;
+}
+.box8 {
+  background-color: gray;
+}
+.box9 {
+  background-color: rgb(37, 8, 8);
+}
+
+.box10 {
+  background-color: black;
+}
+.box11 {
+  background-color: wheat;
+}
+.box12 {
+  background-color: aqua;
+}
+.box13 {
+  background-color: gray;
+}
+.box14 {
+  background-color: tomato;
+}
+.box15 {
+  background-color: chocolate;
+}
+.box16 {
+  background-color: darkviolet;
+}
+.box17 {
+  background-color: purple;
+}
+.box18 {
+  background-color: mediumseagreen;
+}
+img {
+  max-width: 100%;
+  width: 100%;
+}
+/************************** FOOTER SECTION **********************/
+.foot-container {
+  background-color: rgba(0, 0, 0, 0.793);
+  border: 1px solid black;
+  position: relative;
+  bottom: -230px;
+  width: 100vw;
+  height: 150px;
+}
+.foot-wrapper {
+  width: 1250px;
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+.foot-divs {
+  display: flex;
+  /* border: 1px solid red; */
+  justify-content: space-between;
+  height: auto;
+  flex-direction: row;
+  width: 80%;
+  padding: 0;
+}
+
+.foot-links {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  letter-spacing: 1.5px;
+}
+.foot-links:hover,
+.foot-links:focus {
+  border-bottom: 1px solid white;
+}
+.foot-heading {
+  color: yellow;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+.foot-heading:hover,
+.foot-heading:focus {
+  border-bottom: none;
+}
+
+.bottom-para {
+  font-size: 1rem;
+  text-align: center;
+  color: yellow;
+  width: max-content;
+  border-bottom: 1px solid yellow;
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/********************** FORM BOOKING SECTION ***************/
+
+.form-container {
+  display: none;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 450px;
+  border-radius: 0.3rem;
+  background-color: rgba(0, 0, 0, 0.198);
+  backdrop-filter: blur(5px);
+  box-shadow: 0px 0px 5px 1px rgba(255, 255, 0, 0.342);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.form-toggle {
+  display: block;
+}
+.close-btn {
+  cursor: pointer;
+  position: absolute;
+  right: 0.2rem;
+  color: black;
+  top: 0;
+  font-size: 1.3rem;
+  width: max-content;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.booking-btn {
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  padding: 0.2rem 0.4rem;
+  color: yellow;
+  border: 1px solid yellow;
+  background-color: transparent;
+  position: fixed;
+  right: 1rem;
+  bottom: 0.5rem;
+  z-index: 10;
+}
+.booking-btn:active {
+  border-top: 2px solid yellow;
+  border-left: 2px solid yellow;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  /* border: 1px solid red; */
+}
+.input-field,
+select {
+  letter-spacing: 1.5px;
+  font-size: 1.2rem;
+  height: 35px;
+  padding: 0.2rem 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 20px;
+  border: 1px solid yellow;
+  outline: none;
+  color: white;
+  background-color: transparent;
+  box-shadow: inset 0px 0px 2px 1px yellow;
+}
+option {
+  color: black;
+}
+.input-field:focus,
+select:focus {
+  border: 2px solid aqua;
+}
+label {
+  font-size: 1rem;
+  padding-bottom: 0.2rem;
+  letter-spacing: 1px;
+  color: yellow;
+  padding-left: 0.2rem;
+}
+
+.submit-btn:hover,
+.submit-btn:active {
+  /* background-color: black; */
+  color: yellow;
+  cursor: pointer;
+}
+/************************************* tablet ********************/
+@media (max-width: 768px) {
+  html,
+  body {
+    border: 3px solid red;
+  }
+  .main-heading,
+  .main-heading2 {
+    font-size: 2.6rem;
+  }
+  .arrow-div {
+    font-size: 4.5rem;
+  }
+  .place1-section,
+  .place2-section,
+  .place3-section,
+  .place4-section,
+  .place5-section .box-a,
+  .box-b,
+  .box-c,
+  .box-d,
+  .box-f,
+  .box-g,
+  .box-h {
+    height: auto;
+  }
+}
